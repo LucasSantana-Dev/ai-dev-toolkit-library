@@ -1,0 +1,24 @@
+{
+  "id": "adt-score-generated-code",
+  "name": "Adt Score Generated Code",
+  "description": "Deterministic A-F grader for AI-generated code (anti-patterns, error handling, N+1, hardcoded secrets). Zero-LLM pre-filter before ship-check.",
+  "version": "0.1.0",
+  "tags": [
+    "skill-md",
+    "ai-dev-toolkit",
+    "code-quality",
+    "testing"
+  ],
+  "editors": [
+    "claude-code"
+  ],
+  "source": {
+    "type": "git",
+    "repo": "https://github.com/LucasSantana-Dev/ai-dev-toolkit-library",
+    "ref": "main",
+    "path": "catalog/skills/adt-score-generated-code"
+  },
+  "license": "MIT",
+  "author": "Lucas Santana",
+  "homepage": "https://github.com/LucasSantana-Dev/ai-dev-toolkit-library/tree/main/catalog/skills/adt-score-generated-code"
+}
