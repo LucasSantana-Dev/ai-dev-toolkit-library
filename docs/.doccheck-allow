@@ -1,0 +1,13 @@
+# Allowlist for scripts/check-docs-accuracy.mjs
+# One pattern per line. A claim is skipped if it contains any pattern as a substring.
+# Use for intentional placeholders, upstream paths, or external references that
+# look like repo paths but are not.
+
+# Vendored adt-specs-* skills: refers to the CONSUMER repo's roadmap, not this repo.
+docs/roadmap.md
+# Vendored skill content: refers to the consumer repo's Copilot config.
+.github/copilot-instructions.md
+# Vendored catalog doc: illustrative example workflow, not a claim about this repo.
+.github/workflows/security.yml
+# docs/DEPLOY.md intentionally references this deleted workflow (git-history note).
+.github/workflows/cloudflare-pages.yml

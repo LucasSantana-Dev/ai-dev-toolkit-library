@@ -15,6 +15,7 @@
     "import:patterns": "pnpm --filter scripts run import:patterns",
     "import:dev-assets": "pnpm --filter scripts run import:dev-assets",
     "cli": "pnpm --filter adtl run start",
+    "check:docs": "node scripts/check-docs-accuracy.mjs",
     "web:dev": "pnpm --filter web run dev",
     "web:build": "pnpm --filter web run build"
   },

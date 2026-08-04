@@ -24,6 +24,8 @@ jobs:
       - run: pnpm install --frozen-lockfile
       - name: Validate catalog
         run: pnpm run validate
+      - name: Check docs accuracy
+        run: pnpm run check:docs
       - name: Regenerate index and check for drift
         run: |
           pnpm run index
