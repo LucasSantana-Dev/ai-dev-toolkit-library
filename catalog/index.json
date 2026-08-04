@@ -1479,6 +1479,20 @@
     },
     {
       "kind": "skill",
+      "id": "adt-score-generated-code",
+      "name": "Adt Score Generated Code",
+      "description": "Deterministic A-F grader for AI-generated code (anti-patterns, error handling, N+1, hardcoded secrets). Zero-LLM pre-filter before ship-check.",
+      "tags": [
+        "skill-md",
+        "ai-dev-toolkit",
+        "code-quality",
+        "testing"
+      ],
+      "version": "0.1.0",
+      "deprecated": false
+    },
+    {
+      "kind": "skill",
       "id": "adt-secure",
       "name": "Adt Secure",
       "description": "Shortcut for security review on current change set. Runs layered checks (secret-scan, dep-audit, semgrep, OWASP patterns, prompt-injection review).",
